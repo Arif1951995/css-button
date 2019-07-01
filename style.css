@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(255, 251, 0, 0.377);
+    text-align: center;
+}
+
+
+button {
+    outline: none;
+    border: none;
+    padding: 30px 90px;
+     background-color: rgb(243, 163, 14);
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     box-shadow: 0 6px rgb(255, 166, 0);
+     border-radius: 20px;
+     position: relative;
+     cursor: pointer;
+
+}
+button:hover {
+    top: 2px;
+    box-shadow: 0 4px rgb(255, 166, 0);
+
+}
+button:active {
+    box-shadow: none;
+    top: 4px;
+}
